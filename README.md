@@ -9,13 +9,13 @@ Understand who the high-value customers are and where revenue comes from, across
 Python (pandas, NumPy, matplotlib, seaborn) · Jupyter Notebook · Power BI
 
 ## Dataset
-40,000 customers, 15 columns: demographics, city/state, registration date, loyalty tier (Silver / Gold / Platinum), total orders and total spent. Registrations span June 2023 – May 2024.
+40,000 customers, 13 columns: demographics, city/state, registration date, loyalty tier (Silver / Gold / Platinum), total orders and total spent. Registrations span June 2023 – May 2024.
 The data is synthetic/sample data. Email and phone columns were dropped before analysis and are not included in this repo.
 
 ## Project structure
 ```
 ├── notebooks/Customer_shopping_behaviour_analysis.ipynb
-├── dashboard/CustomerSegmentationAnalysis.pbix
+├── dashboard/CustomerShoppingBehaviour.pbix
 ├── dashboard/screenshots/        <- dashboard images
 ├── data/customers.csv            <- cleaned data (no email/phone)
 └── README.md
@@ -36,7 +36,7 @@ The data is synthetic/sample data. Email and phone columns were dropped before a
 - Uttar Pradesh, Rajasthan and Haryana are the top states by total spend.
 
 ## Dashboard preview
-![Dashboard](dashboard/screenshots/dashboard.png)
+![Dashboard](dashboard/screenshots/Screenshot_of_the_Dashboard.png)
 
 ## How to run
 1. Clone the repo.
